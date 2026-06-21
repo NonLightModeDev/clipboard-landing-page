@@ -1,20 +1,37 @@
 .keep-track .section__info {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: center;
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  gap: 3rem;
 }
 
 .descriptions {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 3rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-content: center;
 }
 
 .description {
-    text-align: center;
+  text-align: center;
 }
 
 .description h3 {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 1000px) {
+  .keep-track .section__info {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section__info img {
+    align-self: center;
+    position: relative;
+    left: -100px;
+  }
+
+  .description {
+    text-align: start;
+  }
 }

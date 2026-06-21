@@ -5,6 +5,14 @@
   padding: 6rem 2rem 3rem;
 }
 
+@media (min-width: 1000px) {
+  .header {
+    background: url('../images/bg-header-desktop.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+
 .header .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -25,4 +33,3 @@
   text-align: center;
   margin-bottom: 2rem;
 }
-
