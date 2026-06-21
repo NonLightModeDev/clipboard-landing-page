@@ -1,0 +1,28 @@
+.header {
+  background: url('../images/bg-header-mobile.png');
+  background-size: cover;
+  background-position: center;
+  padding: 6rem 2rem 3rem;
+}
+
+.header .container {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.header img {
+  margin-bottom: 3rem;
+}
+
+.header__title {
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.header__text {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+

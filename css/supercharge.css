@@ -1,0 +1,41 @@
+.supercharge .section__text {
+    margin-bottom: 4rem;
+}
+
+.tools, .partners {
+    width: 100%;
+}
+
+.tools {
+    margin-bottom: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-items: center;
+}
+
+.tool {
+    min-width: 300px;
+    flex: 1;
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    justify-items: center;
+}
+
+.partners {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+    place-content: center;
+}
+
+.partner {
+    flex: 1;
+    display: flex;
+    place-content: center;
+}
+
+.partner img {
+    min-width: 160px;
+}
